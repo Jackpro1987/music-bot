@@ -1,4 +1,5 @@
-# 🎵 Square JMusicBot — Discord Music Bot on Square Cloud ☁️
+# 🎵 Square JMusicBot
+## Host JMusicBot (Discord Music Bot) Server on Square Cloud ☁️
 
 > 🌐 Easily host your own Discord music bot on Square Cloud and bring amazing audio experiences to your Discord server, right from the cloud, with a beautiful and user-friendly interface.
 
