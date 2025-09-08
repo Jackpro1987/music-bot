@@ -39,5 +39,4 @@ The goal of this project is to let you host a Discord music bot on Square Cloud,
 
 ## 🙏 Credits
 
-Developed and maintained by @JoaoOtavioS on GitHub.
-
+Maintained by [@JoaoOtavioS](https://github.com/JoaoOtavioS) on GitHub.
